@@ -171,7 +171,7 @@
                                 <div class="col-md-12">
                                     <div class="mb-3 form-group">
                                         <label for="firstname" class="form-label">Thông tin thêm</label>
-                                        <p class="text-primary" id="s">Đây chứa thông tin nhân viên.....</p>
+                                        <p class="text-primary" id="s">Đây chứa thông tin conhân viên.....</p>
 
                                     </div>
                                 </div>
