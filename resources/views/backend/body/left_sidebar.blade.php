@@ -120,10 +120,10 @@
                     <div class="collapse" id="Advante_Salary">
                         <ul class="nav-second-level">
                             <li>
-                                <a href="">Thêm lương tạm ứng</a>
+                                <a href="{{ route('add.AdvanceSalary') }}">Thêm lương tạm ứng</a>
                             </li>
                             <li>
-                                <a href="">Bản lương tạm ứng</a>
+                                <a href="{{ route('all.AdvanceSalary') }}">Bản lương tạm ứng</a>
                             </li>
                         </ul>
                     </div>

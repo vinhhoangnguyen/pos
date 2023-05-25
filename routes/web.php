@@ -7,6 +7,7 @@ use App\Http\Controllers\Admin\AdminController;
 use App\Http\Controllers\Backend\EmployeeController;
 use App\Http\Controllers\Backend\CustomerController;
 use App\Http\Controllers\Backend\SupplierController;
+use App\Http\Controllers\Backend\AdvanceSalaryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -88,8 +89,14 @@ Route::middleware(['auth'])->group(function () {
 
         //Ajax load View Detail Supplier
         Route::get('/supplier/view/modal/{id}', 'SupplierViewAjax')->name('viewDetail.supplier');
+    });
 
-
+    //Supplier
+    Route::controller(AdvanceSalaryController::class)->group(function () {
+        Route::get('/add/advance/AdvanceSalary', 'add_AdvanceSalary')->name('add.AdvanceSalary');
+        Route::post('/store/advance/AdvanceSalary', 'store_AdvanceSalary')->name('store.AdvanceSalary');
+        Route::get('/all/advance/AdvanceSalary','all_AdvanceSalary')->name('all.AdvanceSalary');
+      
     });
 
 

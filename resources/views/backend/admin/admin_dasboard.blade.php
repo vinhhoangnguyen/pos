@@ -14,14 +14,21 @@
         <!-- App favicon -->
         <link rel="shortcut icon" href="{{ asset('backend/assets/images/favicon.ico') }}">
 
-         <!-- third party css -->
+        <!-- third party css -->
          <link href="{{ asset('backend/assets/libs/datatables.net-bs5/css/dataTables.bootstrap5.min.css')}}" rel="stylesheet" type="text/css" />
          <link href="{{ asset('backend/assets/libs/datatables.net-responsive-bs5/css/responsive.bootstrap5.min.css')}}" rel="stylesheet" type="text/css" />
          <link href="{{ asset('backend/assets/libs/datatables.net-buttons-bs5/css/buttons.bootstrap5.min.css')}}" rel="stylesheet" type="text/css" />
          <link href="{{ asset('backend/assets/libs/datatables.net-select-bs5/css//select.bootstrap5.min.css')}}" rel="stylesheet" type="text/css" />
-         <!-- third party css end -->
+        <!-- third party css end -->
 
+
+       
+        
+      
+         
         <!-- Plugins css -->
+        <link href="{{ asset('backend/assets/libs/bootstrap-datepicker/css/bootstrap-datepicker.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('backend/assets/libs/bootstrap-datepicker/css/bootstrap-datepicker.min.css') }}" rel="stylesheet" type="text/css" />
         <link href="{{ asset('backend/assets/libs/flatpickr/flatpickr.min.css') }}" rel="stylesheet" type="text/css" />
         <link href="{{ asset('backend/assets/libs/selectize/css/selectize.bootstrap3.css') }}" rel="stylesheet" type="text/css" />
 
@@ -88,6 +95,7 @@
 
         <!-- Plugins js-->
         <script src="{{ asset('backend/assets/libs/flatpickr/flatpickr.min.js') }}"></script>
+        <script src="{{ asset('backend/assets/libs/bootstrap-datepicker/js/bootstrap-datepicker.min.js') }}"></script>
         <script src="{{ asset('backend/assets/libs/apexcharts/apexcharts.min.js') }}"></script>
 
         <script src="{{ asset('backend/assets/libs/selectize/js/standalone/selectize.min.js') }}"></script>
